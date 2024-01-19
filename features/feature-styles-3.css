@@ -1,0 +1,44 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50vw 1fr;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+.image-box1{
+    position: relative;
+    height:100vh;
+}
+
+span{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(73, 245, 5);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text-box{
+    background: linear-gradient(to left, limegreen, rgb(73, 245, 5));
+    color: whitesmoke;
+    padding: 30px;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    height:100vh;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: inherit;
+}

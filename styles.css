@@ -1,0 +1,131 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    z-index: 1;
+}
+
+.title{
+    height: 20vh;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: white;
+}
+
+.icon{
+    z-index: 1;
+}
+
+.text-box1{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    border: solid whitesmoke 1px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+}
+
+.text-box2{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin:auto;
+    margin-bottom: 10vh;
+    border: solid whitesmoke 1px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+}
+
+.features{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ft{
+    color: purple;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: solid 1px;
+    border: none;
+    margin-right: 20px; 
+    background-color: purple;
+    box-shadow: 0 0 8px 2px #b8b4b4;
+}
+
+.box > a > img{
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+}
+
+.box:hover{
+    cursor:pointer;
+    z-index: 1;
+    scale: 1.05;
+}
+
+.contact-div{
+    padding: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact-btn{
+ width: 150px;
+ height: 50px;
+ background-color: orange;
+ border: 1px solid orange;
+ border-radius: 5px;
+ border: none;
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+#contact-btn:hover{
+    background-color: red;
+    transition: 0.5s;
+
+}
